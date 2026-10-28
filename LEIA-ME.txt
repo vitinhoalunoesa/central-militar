@@ -1,0 +1,26 @@
+# Central Militar
+
+Site estático gratuito para organizar estudos para EsPCEx e ESA.
+
+## Como testar no computador
+1. Extraia `central_militar.zip`.
+2. Abra a pasta `central_militar`.
+3. Dê dois cliques em `index.html` para abrir no navegador.
+4. Navegue pelo menu. A correção de exercícios e o registro de aulas usam o armazenamento local do navegador.
+
+Para uma experiência mais consistente, pode abrir a pasta no Visual Studio Code e instalar a extensão Live Server, depois clicar em "Go Live". Não é obrigatório.
+
+## Como publicar grátis no GitHub Pages
+1. Crie uma conta em https://github.com/.
+2. Crie um repositório público chamado `central-militar` (ou `SEU-USUARIO.github.io` para um endereço de usuário).
+3. Envie os arquivos e pastas desta pasta para a raiz do repositório. Não envie apenas o ZIP.
+4. No repositório, abra Settings > Pages.
+5. Em Build and deployment, selecione Deploy from a branch, escolha `main` e `/ (root)`, e salve.
+6. Aguarde a publicação e use o endereço mostrado em Settings > Pages.
+
+## Observações
+- É uma primeira versão estática: não há login, banco de dados, sincronização entre dispositivos ou área administrativa.
+- O progresso fica no navegador e pode ser exportado na página "Meu progresso".
+- Os links de videoaulas abrem pesquisas do YouTube, não incorporam vídeos específicos.
+- Os exercícios são exemplos autorais iniciais, não questões oficiais.
+- Confira sempre os editais vigentes da EsPCEx e da ESA para validar disciplinas e conteúdos.

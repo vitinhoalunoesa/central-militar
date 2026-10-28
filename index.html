@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Central Militar: organize seus estudos para EsPCEx e ESA.">
+  <title>Central Militar | Painel</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">CM</span><span><strong>CENTRAL</strong><small>MILITAR</small></span></a>
+    <div class="side-label">CENTRAL DE ESTUDOS</div>
+    <nav>
+      <a class="nav-link active" href="index.html"><span>▦</span> Painel</a>
+      <a class="nav-link" href="materias.html"><span>▤</span> Matérias</a>
+      <a class="nav-link" href="aulas.html"><span>▶</span> Videoaulas</a>
+      <a class="nav-link" href="exercicios.html"><span>✓</span> Exercícios</a>
+      <a class="nav-link" href="progresso.html"><span>↗</span> Meu progresso</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="status-dot"></span> MODO DE ESTUDO ATIVO<small>Versão inicial gratuita</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div><span class="eyebrow">PREPARAÇÃO MILITAR</span><h1>Painel de estudos</h1></div><div class="top-tag">ESP CEx <span>+</span> ESA</div></header>
+    <section class="welcome panel">
+      <div><span class="eyebrow light">MISSÃO DO DIA</span><h2>Disciplina hoje.<br><em>Resultado amanhã.</em></h2><p>Uma sessão de cada vez. Construa sua base e avance com consistência.</p><a class="btn btn-light" href="materias.html">Continuar estudando <span>→</span></a></div>
+      <div class="welcome-symbol" aria-hidden="true"><div class="ring">✦</div><div class="crosshair">+</div></div>
+    </section>
+    <section class="stats-grid">
+      <article class="stat-card"><div class="stat-icon">▤</div><span class="stat-label">MATÉRIAS</span><strong id="stat-subjects">7</strong><small>na sua trilha</small></article>
+      <article class="stat-card"><div class="stat-icon">✓</div><span class="stat-label">QUESTÕES</span><strong id="stat-questions">0</strong><small>respondidas corretamente</small></article>
+      <article class="stat-card"><div class="stat-icon">◷</div><span class="stat-label">AULAS CONCLUÍDAS</span><strong id="stat-lessons">0</strong><small>marcadas por você</small></article>
+      <article class="stat-card"><div class="stat-icon">◎</div><span class="stat-label">PROGRESSO</span><strong id="stat-progress">0%</strong><small>da trilha inicial</small></article>
+    </section>
+    <section class="content-grid">
+      <article class="panel section-card">
+        <div class="section-heading"><div><span class="eyebrow">PLANO SEMANAL</span><h2>Seu roteiro</h2></div><a class="text-link" href="progresso.html">Ver progresso →</a></div>
+        <div class="schedule-list">
+          <div class="schedule-row"><span class="day">SEG</span><div><strong>Matemática + Português</strong><small>Operações básicas e interpretação</small></div><span class="schedule-time">2h30</span></div>
+          <div class="schedule-row"><span class="day">TER</span><div><strong>Matemática + Física</strong><small>Divisão e conceitos de movimento</small></div><span class="schedule-time">2h30</span></div>
+          <div class="schedule-row"><span class="day">QUA</span><div><strong>Português + Química</strong><small>Gramática e matéria</small></div><span class="schedule-time">2h30</span></div>
+          <div class="schedule-row"><span class="day">QUI</span><div><strong>Matemática + Inglês</strong><small>Frações e leitura</small></div><span class="schedule-time">2h30</span></div>
+          <div class="schedule-row"><span class="day">SEX</span><div><strong>Matemática + Humanas</strong><small>Revisão de erros e História</small></div><span class="schedule-time">2h30</span></div>
+          <div class="schedule-row"><span class="day">SÁB</span><div><strong>Redação + exercícios</strong><small>Prática e correção</small></div><span class="schedule-time">2h30</span></div>
+        </div>
+      </article>
+      <article class="panel section-card">
+        <div class="section-heading"><div><span class="eyebrow">COMECE DO ZERO</span><h2>Primeira missão</h2></div><span class="mini-badge">ETAPA 01</span></div>
+        <div class="mission-number">01</div>
+        <h3>As quatro operações</h3>
+        <p class="muted">Reforce adição, subtração, multiplicação e divisão antes de avançar para frações.</p>
+        <div class="progress-track"><span id="mission-progress" style="width:0%"></span></div>
+        <div class="progress-caption"><span>Progresso da missão</span><strong id="mission-label">0 de 3 tópicos</strong></div>
+        <a class="btn btn-primary full" href="materias.html">Abrir Matemática <span>→</span></a>
+      </article>
+    </section>
+    <footer>Central Militar · Projeto gratuito e independente para organização dos estudos.</footer>
+  </main>
+</body>
+</html>
